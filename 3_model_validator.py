@@ -1,8 +1,9 @@
 from pydantic import BaseModel, EmailStr, model_validator
 from typing import List, Dict
 
-class Patient(BaseModel):
 
+class Patient(BaseModel):
+    
     name: str
     email: EmailStr
     age: int
